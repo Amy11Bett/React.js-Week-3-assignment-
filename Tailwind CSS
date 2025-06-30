@@ -1,0 +1,78 @@
+# 🖥️ React + Tailwind CSS Task Manager App
+
+A fully responsive React application built using Vite, JSX, and Tailwind CSS. The app demonstrates component architecture, state management using React hooks, API integration, theme switching, and reusable UI components.
+
+---
+
+## 🚀 Objective
+
+Build a responsive, component-based task manager with API integration, styled using Tailwind CSS, and organized following React best practices.
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## ✅ Features Implemented
+
+### 🔧 Task 1: Project Setup
+- ✅ React project initialized using **Vite**
+- ✅ **Tailwind CSS** configured
+- ✅ Organized into **components**, **pages**, and **hooks**
+- ✅ **React Router** configured for basic routing
+
+### 🧩 Task 2: Component Architecture
+- ✅ **Button** component with `primary`, `secondary`, `danger` variants
+- ✅ **Card** component to display content
+- ✅ **Navbar** and **Footer** for layout consistency
+- ✅ **Layout** component wrapping pages with common UI
+- ✅ All components are **customizable via props**
+
+### 📦 Task 3: State Management and Hooks
+- ✅ **TaskManager** component with add, complete, delete, and filter functionality
+- ✅ State management with `useState`
+- ✅ Side effects handled using `useEffect`
+- ✅ Theme management with `useContext`
+- ✅ **Custom hook** `useLocalStorage` for task persistence
+
+### 🌐 Task 4: API Integration
+- ✅ Data fetched from [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+- ✅ API results displayed in a **responsive grid**
+- ✅ **Loading and error** states handled
+- ✅ **Pagination** or **infinite scrolling** implemented
+- ✅ **Search** feature to filter API results
+
+### 🎨 Task 5: Styling with Tailwind CSS
+- ✅ Responsive on **mobile, tablet, desktop**
+- ✅ **Dark/Light mode** toggle using Tailwind’s `dark:` utility and `context`
+- ✅ Tailwind used for **spacing, layout, and typography**
+- ✅ Custom **animations/transitions** added to buttons and modal
+
+---
+
+## 🖼️ Screenshots
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![light](./screenshots/light.png) | ![dark](./screenshots/dark.png) |
+
+---
+
+## 🛠️ Getting Started
+
+### 📦 Prerequisites
+- Node.js v18 or higher
+
+### 🧪 Installation & Run
+```bash
+# Clone your GitHub Classroom repo
+git clone https://github.com/YOUR-USERNAME/your-repo.git
+cd your-repo
+
+# Install dependencies
+npm install
+
+# Run the dev server
+npm run dev
